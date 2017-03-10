@@ -1,0 +1,41 @@
+@import url("reset.css");
+.main6 {
+  width: 970px;
+  height: 946px;
+  background: #ffc0cb;
+  margin: 0 auto;
+}
+.main6 .left {
+  width: 717px;
+  height: 946px;
+  background: #90ee90;
+  float: left;
+}
+.main6 .left .zuo {
+  width: 350px;
+  height: 844px;
+  background: #ff0000;
+  float: left;
+}
+.main6 .left .zuo h2 {
+  width: 304px;
+  height: 54px;
+  margin-top: 18px;
+  margin-left: 24px;
+  border-bottom: 1px solid #ccc;
+}
+.main6 .left .zuo dl dd h3 {
+  width: 207px;
+}
+.main6 .left .you {
+  width: 350px;
+  height: 844px;
+  background: #ffff00;
+  float: right;
+}
+.main6 .right {
+  width: 243px;
+  height: 946px;
+  background: #dda0dd;
+  float: right;
+}

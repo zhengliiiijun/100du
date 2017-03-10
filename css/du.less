@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.main6{
+    .whb(970px,946px,pink);
+    margin: 0 auto;
+    .left{
+        .whb(717px,946px,lightgreen);
+        float: left;
+        .zuo{
+            .whb(350px,844px,red);
+            float: left;
+            h2{
+                width: 304px;
+                height: 54px;
+                margin-top: 18px;
+                margin-left: 24px;
+                border-bottom: 1px solid #ccc;
+            }
+            dl{
+                dt{
+                    
+                }
+                dd{
+                    h3{
+                        width: 207px;
+                    }
+                    p{
+                        
+                    }
+                }
+            }
+        }
+        .you{
+            .whb(350px,844px,yellow);
+            float: right;
+        }
+        
+    }
+    .right{
+        .whb(243px,946px,plum);
+        float: right;
+    }
+}
